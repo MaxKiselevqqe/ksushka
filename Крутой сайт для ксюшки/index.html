@@ -1,22 +1,263 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <link rel="stylesheet" href="q.css">
-</head>
-    <title> Агония для разраба(Фитнес профи) </title>
-    <body>
-     
-            <div class="video-bg">
-                <video src="img/bg-vid.mp4" type="video/mp4" autoplay muted loop> </video>
-                <div class="effects"></div>
-            <div class="video-bg-content">
-                <h1> Fitnes Pro.</h1>
-               
-            </div>
-            <div class="btt">
-            <button type="button" onclick="location.href='https://vk.com/bbloodhound'"> Записаться</button>
-            </div>
-          
 
-    </body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Агония для разраба (Фитнес профи)</title>
+</head>
+<body>
+    <div class="video-bg">
+        <video src="img/bg-vid.mp4" type="video/mp4" autoplay muted loop></video>
+        <div class="effects"></div>
+        <div class="video-bg-content">
+            <h1>Fitnes Pro.</h1>
+        </div>
+    </div>
+    
+    <div class="btt">
+        <button type="button" onclick="location.href='#tarrifs'">Тарифы</button>
+    </div>
+    <section class="rooms">
+        <div class="container">
+        <div class="rooms-card">
+            <img class="rooms-img"src="img/training.jpg" alt="" width="300px" height="200px">
+            <h3 class="rooms-title"> Просторный тренажерный зал на 700 м2</h3>
+            <p class="rooms-desc">Легко соблюдать дистанцию и нет очередей на тренажеры.</p>
+        </div>
+        <div class="rooms-card">
+            <img src="img/bath.jpg" alt="" width="300px" height="200px">
+            <h3 class="rooms-title">  Огромная студия под боевые искусства</h3>
+            <p class="rooms-desc"> Мы уделяем внимание групповым занятиям: просторные студии Фитнес-профи позволяют заниматься с комфортом.</p>
+        </div>
+        <div class="rooms-card">
+            <img src="img/eco-pool.jpg" alt="" width="300px" height="200px">
+            <h3 class="rooms-title"> Экологичный бассейн 25 м</h3>
+            <p class="rooms-desc"> В бассейне Фитнес-профи — только морская вода.
+            </p>
+        </div>
+        <div class="rooms-card">
+            <img src="img/fight-club.jpg" alt="" width="300px" height="200px">
+            <h3 class="rooms-title"> Финская сауна и хаммам</h3>
+            <p class="rooms-desc">После тренировки вы можете прогреть мышцы в горячей финской сауне или теплом хамаме.</p>
+        </div>
+        </div>
+    </section>
+    <h2>Фото-Галлерея</h2>
+    <section class="train-carousel">
+   <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="container">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/training.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/training2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/training3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+    
+    </section>
+    <div class="container">
+      
+    <section class="coaches">
+      <h2>Наши Тренера</h2>
+     <div class="coach-card">
+      <div class="coach-img">
+        <img src="img/pavel.jpg" width="500px" height="600px">
+        
+      </div>
+      <div class="name">
+        <h1>Павел Косян
+          </h1>
+          <p> Персональный тренер</p>
+      </div>
+      <div class="expirience">
+        <h1>Стаж:</h1>
+        <p>4 года</p>
+      </div>
+      <div class="decs">
+        <h1>Специализация</h1>
+        <p>Силовой/функциональный тренинг
+          Похудение за счет снижения жирового компонента
+          Развитие силы, выносливости
+          Работа с особенностями по здоровью (кифоз, лордоз, сколиоз, травмы коленного сустава)
+          Набор мышечной массы тела
+          Составление программы тренировок с учётом индивидуальных особенностей
+          Онлайн сопровождение (тренировки/питание/разбор анализов с врачами специалистами)
+          Подготовка к забегам, марафонам, Гонке Героев, походам в горы
+          Восстановление после травм, реабилитация (связанная с коленями, плечевым поясом)</p>
+      </div>
+      <div class="degree">
+        <h1>Образовние</h1>
+        <p>сука я монтажник вентеляционной шахты и я стал сильным потому что таскал болгарку 20 этажей вниз и вверх каждый день
+          я вообще не нуждаюсь ни в чём, для меня жизнь уже не имеет смысла, только в кошмарах мне снится каждый этаж который я проходил сквозь боль, кровЬ!!! пот и слёзы.
+        </p>
+
+      </div>
+      <div class="coach-card">
+      
+        <div class="coach-img">
+          <img src="img/milena.jpg" width="500px" height="600px">
+          
+        </div>
+        <div class="name">
+          <h1>Милена Грунтовская</h1>
+          <p>Персональный тренер</p>
+        </div>
+        <div class="expirience">
+          <h1>Стаж:</h1>
+          <p>3 года</p>
+        </div>
+        <div class="decs">
+          <h1>Специализация</h1>
+          <p>Стретчинг (растяжка)
+            Коррекция осанки и укрепление спины
+            Постановка техники выполнения упражнений
+            Функциональный тренинг и упражнения на выносливость
+            Коррекция фигуры
+            Составление индивидуальных программ питания
+            МФР (миофасциальный релиз, работа с зажимами)</p>
+        </div>
+        <div class="degree">
+          <h1>Образовние</h1>
+          <p>Учёный Фитнес
+            "Заботьтесь о своем теле. Это единственное место, в котором вам предстоит жить"
+          </p>
+  
+        </div>
+        <div class="coach-card">
+          <div class="coach-img">
+            <img src="img/sergey.jpg" width="500px" height="600px">
+            
+          </div>
+          <div class="name">
+            <h1>Сергей Кулицкий</h1>
+            <p>Персональный тренер</p>
+          </div>
+          <div class="expirience">
+            <h1>Стаж:</h1>
+            <p>3 года</p>
+          </div>
+          <div class="decs">
+            <h1>Специализация</h1>
+            <p>Коррекция фигуры
+              Набор мышечной массы (силовой тренинг и бодибилдинг)
+              Постановка техники выполнения упражнений
+              Составление индивидуальной тренировочной программы
+              Тренировки для начинающих</p>
+          </div>
+          <div class="degree">
+            <h1>Образовние</h1>
+            <p>Ученый Фитнес (Мастер Тренер)
+              "Покажи Своей лени, кто здесь хозяин!"
+            </p>
+          </div>
+          </div>
+     </div>
+     </div>
+    </div>
+    </section>
+    <a name="tarrifs"></a>
+    <section class="tarrifs"> 
+      <div class="container">
+      <h2>Тарифы</h2>
+        <div class="tarrif">
+          <div class="tarif-title">
+            <h1>Безлимит на год</h1>
+            </div>
+            <div class="tarif-logo">
+            <img src="img.infinity.png" alt="">
+          </div>
+          <div class="tarif-desc">
+          <p>Безлимит на год</p>
+        </div>
+        </div>
+    <div class="tarrif">
+      <div class="tarif-title">
+        <h1>Почасовой</h1>
+        </div>
+        <div class="tarif-logo">
+        <img src="img.infinity.png" alt="">
+      </div>
+      <div class="tarif-desc">
+      <p>Платите по часам прямо на стойке регистрации</p>
+    </div>
+    </div>
+      <div class="tarrif">
+        <div class="tarif-title">
+          <h1>Фитнес +</h1>
+          </div>
+          <div class="tarif-logo">
+          <img src="img.infinity.png" alt="">
+        </div>
+        <div class="tarif-desc">
+        <p>3-х месячная подписка с приятными бонусами!</p>
+      </div>
+      </div>
+      <div class="callback">
+      <h1>Выбрали тариф?</h1>
+      <h1>запишитесь!</h1>
+      <a href="+79631033002"> позвонить</a>
+    </div>
+  </div>
+    </section>
+    <section class="footer">
+      <div class="start-text">
+        <h1>Если вы не победите себя,
+          тогда будете побеждены самим собой</h1>
+    </div>
+    <div class="footer-items">
+      <div class="container">
+    <div class="contacts">
+    <div class="footer-text">
+      <h3> Связаться с нами</h3>
+    </div>
+    <div class="footer-links">
+      <a href="+79631033002">позвонить</a> 
+      <img src="telephone.png">
+      <a href="https://vk.com/bbloodhound">Vkontakte</a>
+      <img src="vk.png">
+      <a href="https://t.me/decadanceq">Telegram</a>
+      <img src="telegram.png">
+    </div>
+  </div>
+  <div class="adress">
+    <div class="title-adress">
+      <h3> Адрес</h3>
+    </div>
+    <div class="footer-text">
+      <p>г. Москва, ул. Ленина 17</p>
+      <p>5 минут от М. Арбатская!</p>
+    </div>
+  </div>
+</div>
+</div>
+    </section>
+    
+    
+</body>
 </html>

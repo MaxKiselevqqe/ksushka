@@ -1,0 +1,255 @@
+body{
+    font-family: "Poppins", sans-serif;
+        font-weight: 400,700;
+        font-style: normal;
+    padding: 0;
+    margin: 0;
+    background: #1C1C1C;
+   
+}
+h2{
+    font-size: 100px;
+    text-align:center;
+    font-weight: 700;
+    color: #ABCDEF;
+}
+.container{
+    max-width: 1141px;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video-bg{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.video-bg video{ 
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+.video-bg-content{
+     z-index: 2; /*мы кароч ставим индекст чтобы он находился сзади */
+    font-size: 50px;
+    color: #ABCDEF;
+}
+.effects {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+}
+.video-bg-content h1{
+    font-weight: 700;
+    font-size: 125px;
+    width: 0;
+    word-break: break-all;
+    overflow:hidden;
+    height: 1.2em;
+    animation: move 3s infinite linear alternate;
+}
+.video-bg-content h1::before{
+    content: "";
+    display: inline-block;
+
+}
+
+.btt button{
+    padding: 20px 20px;
+    font-size: 40px;
+    background-color: #212121; /* Цвет фона кнопки */
+    color: #ABCDEF; /* Цвет текста кнопки */
+    border: none;
+    border-radius: 15px; /* Скругление углов */
+    cursor: pointer; /* Курсор при наведении */
+    position: absolute;
+    bottom: 300px; /* Отступ от нижнего края */
+    left: 50%;
+    transform: translateX(-50%); /* Центрирует кнопку относительно родителя */; 
+    z-index: 2;
+   
+}
+img{
+    max-width: 100%;
+}
+/* КУ ЕБЛАНЫ */
+.rooms{
+    padding: 100px 0;
+    
+
+}
+.rooms .container{
+    max-width: 1141px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px 20px;
+    align-items: center;
+    
+    
+    
+    
+}
+.rooms-card{
+    width:260px;
+    height:360px;
+    overflow: hidden;
+   background: #31353A;  /* цвет фона карты  */
+    border-radius: 10px;
+    text-align: center;
+    
+    
+    
+}
+.rooms-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    
+}
+.rooms-title{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 13px;
+    color: aliceblue ;
+}
+.rooms-desc{
+    font-size: 16px;
+    opacity: 0.7;
+    color: aliceblue ;
+}
+.train-carousel{
+    margin-bottom: 200px;
+}
+
+.coach-card{
+    max-width: 1141px;
+    align-items: center;
+    background: #31353A;
+   
+ 
+    
+    
+}
+.coach-card h1{
+    text-align: left;
+    font-weight: 700;
+    font-size: 30px;
+    color:#ABCDEF;
+    
+}
+.coach-card p{
+    text-align: left;
+    font-weight: 400;
+    font-size: 15px;
+    
+    color:pink;
+}
+.tarrifs{
+    height: 100%;
+    
+
+}
+.tarif-title{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 13px;
+    color: aliceblue ;
+}
+.tarrif{
+    max-width: 1141px;
+    align-items: center;
+    background: #31353A;
+    padding: 10px;
+}
+.tarif-desc{
+    text-align: left;
+    font-weight: 400;
+    font-size: 15px;
+    color:pink;
+}
+.callback{
+    text-align: center;
+    color: aliceblue ;
+    font-size: 60px;
+}
+.callback a{
+    text-align: center;
+    color: limegreen ;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.start-text{
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 13px;
+    color: aliceblue ;
+}
+
+.footer{
+    background: black;
+    height: 20vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    justify-content: space-between;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-items .contacts{
+    text-align: left;
+}
+.footer-items .contacts h3{
+    text-align: left;
+    color:#ABCDEF;
+}
+.footer-items .contacts a{
+    text-align: left;
+    color:limegreen;
+    text-decoration: none;
+}
+.footer-items .adress{
+    text-align: left;
+    
+}
+.footer-items .adress h3{
+    text-align: left;
+    color:#ABCDEF;
+    
+}
+.footer-items .adress p{
+    text-align: left;
+    color:#ABCDEF;
+    
+}
+
+
+
+
+
+
+
+
+
+    
+@keyframes move{
+    90% , 100% {width: 100%}
+}
